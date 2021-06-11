@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(35,35,48);
+}
+.containt{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:#e2e2f4;
+}
+.text-muted{
+    color: #8f919b;
+    font-size: 159%;
+    display: flex;
+}
+.text-center{
+    text-align:center;
+}
+
+.blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    }
+.blockquote-footer{
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: .875em;
+    color: #6c757d;
+    }
